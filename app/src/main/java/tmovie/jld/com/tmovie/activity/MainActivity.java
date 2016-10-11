@@ -23,7 +23,7 @@ import tmovie.jld.com.tmovie.view.myViewPager;
 
 public class MainActivity extends BaseActivity implements ViewPager.OnPageChangeListener {
 
-    public static final String TAG = "MainActivity";
+    public static final String TAG = "BaseActivity";
     private TabLayout mTablayout;
     private myViewPager mViewPager;
     private List<Fragment> mFragments = new ArrayList<>();
