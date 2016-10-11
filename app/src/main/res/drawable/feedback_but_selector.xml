@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:state_activated="true">-->
+    <!--<shape>-->
+    <!--&lt;!&ndash;颜色&ndash;&gt;-->
+    <!--<solid android:color="#0099ff" />-->
+    <!--&lt;!&ndash;圆角&ndash;&gt;-->
+    <!--<corners android:radius="5dip" />-->
+    <!--&lt;!&ndash;描边&ndash;&gt;-->
+    <!--<stroke android:width="0.3dp"-->
+    <!--android:color="@color/colorLine" />-->
+    <!--</shape>-->
+    <!--</item>-->
+    <!--<item android:clicb="false">-->
+    <!--<shape>-->
+    <!--&lt;!&ndash;颜色&ndash;&gt;-->
+    <!--<solid android:color="#99ccff" />-->
+    <!--&lt;!&ndash;圆角&ndash;&gt;-->
+    <!--<corners android:radius="5dip" />-->
+    <!--&lt;!&ndash;描边&ndash;&gt;-->
+    <!--<stroke android:width="0.3dp"-->
+    <!--android:color="@color/colorLine" />-->
+    <!--</shape>-->
+    <!--</item>-->
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape>
+            <!--颜色-->
+            <solid android:color="#0066cc" />
+            <!--圆角-->
+            <corners android:radius="5dip" />
+            <!--描边-->
+            <stroke android:width="0.3dp" android:color="@color/colorLine" />
+        </shape>
+    </item>
+    <item android:state_enabled="true" android:state_pressed="false">
+        <shape>
+            <!--颜色-->
+            <solid android:color="#0099ff" />
+            <!--圆角-->
+            <corners android:radius="5dip" />
+            <!--描边-->
+            <stroke android:width="0.3dp" android:color="@color/colorLine" />
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape>
+            <!--颜色-->
+            <solid android:color="#99ccff" />
+            <!--圆角-->
+            <corners android:radius="5dip" />
+            <!--描边-->
+            <stroke android:width="0.3dp" android:color="@color/colorLine" />
+        </shape>
+    </item>
+
+</selector>

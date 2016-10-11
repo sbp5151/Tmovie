@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">Tmovie</string>
+
+    <string name="movie">电影</string>
+    <string name="music">音乐</string>
+    <string name="news">新闻</string>
+    <string name="feedback">反馈</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="dialog_text">请稍等...</string>
+    <string name="request_ing">正在加载...</string>
+    <string name="request_error">加载失败!</string>
+    <string name="network_request_error">网络请求失败！</string>
+    <string name="title_activity_movie">MovieActivity</string>
+    <string name="movie_play_error_title">Cannot play video</string>
+    <string name="movie_play_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to this device</string>
+    <string name="movie_play_error_text_unknown">Sorry, this video cannot be played.</string>
+    <string name="movie_play_error_button">OK</string>
+    <string name="title_activity_my_play">MyPlay</string>
+    <string name="news_top">头条</string>
+    <string name="news_shehui">社会</string>
+    <string name="news_guonei">国内</string>
+    <string name="news_guoji">国际</string>
+    <string name="news_yule">娱乐</string>
+    <string name="news_tiyu">体育</string>
+    <string name="news_junshi">军事</string>
+    <string name="news_keji">科技</string>
+    <string name="news_caijing">财经</string>
+    <string name="news_shishang">时尚</string>
+    <string name="play_error">播放出错</string>
+    <string name="title_activity_news_web">NewsWeb</string>
+    <string name="feedback_editText_hint">请输入遇到的问题或金建议...</string>
+    <string name="feedback_name">姓名</string>
+    <string name="feedback_phone">电话</string>
+    <string name="feedback_name_hint">选填，便于我们联系你</string>
+    <string name="problem_type">联系方式（选填）</string>
+    <string name="problem_type2">问题类型（必选）</string>
+    <string name="feedback_app">对应用的建议</string>
+    <string name="feedback_travel">对旅游团的建议</string>
+    <string name="feedback_submit">提交</string>
+    <string name="feedback_error">提交失败</string>
+    <string name="feedback_win">提交成功</string>
+    <string name="feedback_mac_error">您当前没有旅游团信息</string>
+    <string name="request_win">刷新成功</string>
+</resources>

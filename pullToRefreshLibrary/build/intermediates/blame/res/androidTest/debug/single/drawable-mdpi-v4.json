@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\CodeStorage\\Tmovie\\pullToRefreshLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "E:\\CodeStorage\\Tmovie\\pullToRefreshLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "E:\\CodeStorage\\Tmovie\\pullToRefreshLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "E:\\CodeStorage\\Tmovie\\pullToRefreshLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "E:\\CodeStorage\\Tmovie\\pullToRefreshLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "E:\\CodeStorage\\Tmovie\\pullToRefreshLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    }
+]

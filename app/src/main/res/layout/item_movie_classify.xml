@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/iv_movie_classify"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/happy2" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#8666" />
+
+    <TextView
+        android:id="@+id/tv_movie_classify"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+</FrameLayout>

@@ -1,0 +1,196 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorLine" />
+        <EditText
+            android:id="@+id/et_feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="top"
+            android:hint="@string/feedback_editText_hint"
+            android:lines="7"
+            android:paddingLeft="@dimen/feedback_margin_left_layout2"
+            android:paddingTop="16dp"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/feedback_text_size" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorLine" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/feedback_margin_left_layout2"
+            android:text="@string/problem_type"
+            android:textColor="#c69c6d"
+            android:textSize="15dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorLine" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/feedback_item_height"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_feedback_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/feedback_margin_left_layout1"
+                android:text="@string/feedback_name"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/feedback_text_size" />
+
+            <EditText
+                android:id="@+id/et_feedback_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@null"
+                android:hint="@string/feedback_name_hint"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorHint"
+                android:textSize="@dimen/feedback_text_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/feedback_item_height"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_feedback_phone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/feedback_margin_left_layout1"
+                android:text="@string/feedback_phone"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/feedback_text_size" />
+
+            <EditText
+                android:id="@+id/et_feedback_phone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:background="@null"
+                android:hint="@string/feedback_name_hint"
+                android:inputType="phone"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorHint"
+                android:textSize="@dimen/feedback_text_size" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorLine" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/feedback_margin_left_layout2"
+            android:text="@string/problem_type2"
+            android:textColor="#c69c6d"
+            android:textSize="15dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorLine" />
+        <RelativeLayout
+            android:id="@+id/feed_back_app"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/feedback_item_height"
+            android:background="@drawable/item_check_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/feedback_margin_left_layout1"
+                android:text="@string/feedback_app"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/feedback_text_size" />
+
+            <CheckBox
+                android:id="@+id/cb_feedback_app"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:clickable="false"
+                android:drawableStart="@drawable/selector_checkbox_bg" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorLine" />
+
+        <RelativeLayout
+            android:id="@+id/feed_back_lyt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/feedback_item_height"
+            android:background="@drawable/item_check_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/feedback_margin_left_layout1"
+                android:text="@string/feedback_travel"
+                android:textColor="@color/colorText"
+                android:textSize="@dimen/feedback_text_size" />
+
+            <CheckBox
+                android:id="@+id/cb_feedback_lt"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:clickable="false"
+                android:drawableStart="@drawable/selector_checkbox_bg" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorLine" />
+
+        <Button
+            android:id="@+id/bt_feedback_submit"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/feedback_but_selector"
+            android:text="@string/feedback_submit"
+            android:textSize="@dimen/feedback_text_size" />
+    </LinearLayout>
+
+
+</ScrollView>

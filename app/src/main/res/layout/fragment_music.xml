@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/lv_music_content"
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrDrawable="@drawable/default_ptr_flip"
+        ptr:ptrHeaderBackground="#D7D7D7"
+        ptr:ptrHeaderTextColor="#919292" />
+</RelativeLayout>
